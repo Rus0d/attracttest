@@ -35,6 +35,5 @@ export class AppComponent implements OnDestroy {
   changeURL() {
     this.baseHref = '?product=phone&price=200';
     console.log(this.product, this.price, this);
-
   }
 }
